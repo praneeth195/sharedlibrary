@@ -33,6 +33,7 @@ pipeline
                 {
                     cicd.Deploy("declarative3","172.31.20.225","qatestapplication")
                 }
+            }
         }
         stage('ContTesting')
         {
