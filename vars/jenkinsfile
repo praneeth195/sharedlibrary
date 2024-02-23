@@ -31,7 +31,7 @@ pipeline
             {
                 script
                 {
-                    cicd.Deploy("declarative3","172.31.20.225","apps1")
+                    cicd.Deploy("declarative3","172.31.20.225","apps3")
                 }
             }
         }
@@ -52,7 +52,7 @@ pipeline
             {
                 script
                 {
-                    cicd.deploy("declarative3","172.31.17.50","apps2")
+                    cicd.deploy("declarative3","172.31.17.50","apps4")
                 }
             }
         }
